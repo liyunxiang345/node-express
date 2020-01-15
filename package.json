@@ -1,0 +1,25 @@
+{
+  "name": "express learn",
+  "version": "1.0.0",
+  "description": "learn node.js express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyunxiang345/node-express.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "leeyunxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyunxiang345/node-express/issues"
+  },
+  "homepage": "https://github.com/liyunxiang345/node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
