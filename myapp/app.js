@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+var cakeRouter = require('./routes/cake');
 var app = express();
 app.all('*', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public'))); //有了这句，就可
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
+app.use('/cake', cakeRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
